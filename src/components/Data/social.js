@@ -1,9 +1,9 @@
 
-import github from '../../assets/github.png'
-import facebook from '../../assets/facebook.png'
+import github from '../../assets/github_color.png'
+import facebook from '../../assets/facebook_color.png'
 import machine from '../../assets/machine-learning.png'
-import linked from '../../assets/linkedin.png'
-import instagram from '../../assets/instagram.png'
+import linked from '../../assets/linkedin_color.png'
+import instagram from '../../assets/instagram_color.png'
 
 export const SocialData = [
     {

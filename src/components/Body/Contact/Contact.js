@@ -18,7 +18,7 @@ const Contact = () => {
                 </div>
                 <div className='download'>
                     <a download href={cv}>
-                        <FontAwesomeIcon icon={faDownload} className='download-icon' />
+                        <FontAwesomeIcon icon={faDownload} className='download-icon' target="_blank" />
                         Download Resume
                     </a>
                 </div>
