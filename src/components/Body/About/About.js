@@ -11,7 +11,7 @@ const About = () => {
                     <br />
                     I am  <span className='info-name'>Mehedi Hasan Shuvon</span>
                     <br />
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci reprehenderit molestias perspiciatis quis dolores consectetur molestiae ad dolor nulla voluptatibus?
+                    Growth-oriented, professional minded, enthusiastic and recently graduated B.Sc. on Computer Science and Engineering successfully.I am a Programmer and MERN web Developer with Machine Learning and Animation Skills as well.
                 </div>
                 <div className='about-photo'>
                     <img src={me} alt="" className='picture' />

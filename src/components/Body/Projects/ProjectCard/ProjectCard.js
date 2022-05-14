@@ -10,9 +10,9 @@ const ProjectCard = ({ project }) => {
                 <div className='project-links'>
                     {
                         project.demo && (
-                            <a className='project-link' href={project.demo}>
+                            <a className='project-link' href={project.demo} target="_blank">
                                 <div className='link-button'>
-                                    <FontAwesomeIcon icon={faEarthAmerica}  className='special-icon'/>
+                                    <FontAwesomeIcon icon={faEarthAmerica} className='special-icon' />
                                     Demo
                                 </div>
                             </a>
@@ -20,7 +20,7 @@ const ProjectCard = ({ project }) => {
                     }
                     {
                         project.github && (
-                            <a className='project-link' href={project.github}>
+                            <a className='project-link' href={project.github} target="_blank">
                                 <div className='link-button'>
                                     <i class="devicon-github-original colored"></i>
                                     Github

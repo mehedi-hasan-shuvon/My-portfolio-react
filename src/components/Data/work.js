@@ -13,6 +13,6 @@ export const WorkData = [
         dateJoining: "01-02-2021",
         dateEnd: "01-01-2022",
         comapnyLogo: "https://www.bracu.ac.bd/sites/default/files/resources/media/bracu_logo.png",
-        work: "I have been student tutor at Brac University in CSE220&221( Data structure and Algorithms) course for almost one year."
+        work: "I have been student tutor at Brac University in CSE220&221( Data structure and Algorithms) course in Python for almost one year."
     },
 ]
