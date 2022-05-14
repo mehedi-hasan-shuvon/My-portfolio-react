@@ -16,7 +16,7 @@ const Mobile = ({ isOpen, setIsOpen }) => {
                     </a>
                 </div>
                 <div className='mobile-option'>
-                    <a href="#skills">
+                    <a href="#skill">
                         <FontAwesomeIcon icon={faListCheck} className='option-icon' />
                         Skills
                     </a>

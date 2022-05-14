@@ -12,7 +12,7 @@ const Web = () => {
                 </a>
             </div>
             <div className='web-option'>
-                <a href="#skills">
+                <a href="#skill">
                     <FontAwesomeIcon icon={faListCheck} className='option-icon' />
                     Skills
                 </a>
