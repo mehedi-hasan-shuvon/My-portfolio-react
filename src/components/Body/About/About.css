@@ -21,6 +21,12 @@
     font-size: 32px;
 }
 
+.download-resume{
+    width: 25%;
+    margin-top: 15px;
+    
+}
+
 @media only screen and (max-width : 720px) {
     .about-top {
         flex-direction: column;
@@ -38,5 +44,12 @@
 
     .info-name {
         font-size: 26px;
+    }
+
+    .download-resume{
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 35px;
+        
     }
 }
