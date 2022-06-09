@@ -1,4 +1,5 @@
 import React from 'react';
+import AnimatedFooter from '../AnimatedFooter/AnimatedFooter';
 import Body from '../Body/Body';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
@@ -8,7 +9,8 @@ const Home = () => {
         <div className='home'>
             <Header></Header>
             <Body></Body>
-            <Footer></Footer>
+            {/* <Footer></Footer> */}
+            <AnimatedFooter></AnimatedFooter>
         </div>
     );
 };
