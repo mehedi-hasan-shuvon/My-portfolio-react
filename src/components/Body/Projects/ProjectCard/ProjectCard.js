@@ -28,6 +28,26 @@ const ProjectCard = ({ project }) => {
                             </a>
                         )
                     }
+                    {
+                        project.client && (
+                            <a className='project-link' href={project.client} target="_blank">
+                                <div className='link-button'>
+                                    <i class="devicon-github-original colored"></i>
+                                    Client-side 
+                                </div>
+                            </a>
+                        )
+                    }
+                    {
+                        project.server && (
+                            <a className='project-link' href={project.server} target="_blank">
+                                <div className='link-button'>
+                                    <i class="devicon-github-original colored"></i>
+                                    Server-side 
+                                </div>
+                            </a>
+                        )
+                    }
                 </div>
 
                 <p>{project.about}</p>
