@@ -4,7 +4,7 @@ import me from '../../../assets/my-bg2.png'
 import SocialContact from '../../Common/SocialContact/SocialContact';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
-import cv from '../../../assets/cv.pdf';
+import cv from '../../../assets/resume.pdf';
 import Typewriter from 'typewriter-effect';
 
 const About = () => {
