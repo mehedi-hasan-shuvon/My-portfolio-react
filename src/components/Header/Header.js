@@ -1,6 +1,7 @@
 import { faBars, faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 import Mobile from './Mobile/Mobile';
 import Web from './Web/Web';
@@ -10,7 +11,10 @@ const Header = () => {
     return (
         <div className='header'>
             <div className='logo'>
-                Mehedi Hasan Shuvon
+                {/* Mehedi Hasan Shuvon */}
+                <Link className='My-link' as={Link} to="/">
+                    Mehedi Hasan Shuvon
+                </Link>
             </div>
             <div className='menu'>
                 <div className='web-menu'>

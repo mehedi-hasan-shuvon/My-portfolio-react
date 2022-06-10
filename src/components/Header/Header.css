@@ -34,6 +34,10 @@
     font-weight: 800;
 }
 
+.My-link{
+    text-decoration: none;
+}
+
 @media only screen and (max-width : 720px) {
     .mobile-menu {
         display: flex;

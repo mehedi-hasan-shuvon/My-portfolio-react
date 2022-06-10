@@ -1,6 +1,7 @@
-import { faAddressCard, faBriefcase, faCircleXmark, faCode, faListCheck } from '@fortawesome/free-solid-svg-icons';
+import { faAddressCard, faBlog, faBriefcase, faCircleXmark, faCode, faListCheck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Mobile.css';
 const Mobile = ({ isOpen, setIsOpen }) => {
     return (
@@ -32,6 +33,12 @@ const Mobile = ({ isOpen, setIsOpen }) => {
                         <FontAwesomeIcon icon={faAddressCard} className='option-icon' />
                         Contact
                     </a>
+                </div>
+                <div className='mobile-option'>
+                    <Link as={Link} to="/Blogs">
+                        <FontAwesomeIcon icon={faBlog} className='option-icon' />
+                        Blogs
+                    </Link>
                 </div>
             </div>
         </div>

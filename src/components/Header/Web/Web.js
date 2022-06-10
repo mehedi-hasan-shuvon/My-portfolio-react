@@ -1,6 +1,7 @@
-import { faAddressCard, faBriefcase, faCode, faListCheck } from '@fortawesome/free-solid-svg-icons';
+import { faAddressCard, faBlog, faBriefcase, faCode, faListCheck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Web.css';
 const Web = () => {
     return (
@@ -28,6 +29,12 @@ const Web = () => {
                     <FontAwesomeIcon icon={faAddressCard} className='option-icon' />
                     Contact
                 </a>
+            </div>
+            <div className='web-option'>
+            <Link as={Link} to="/Blogs">
+            <FontAwesomeIcon icon={faBlog} className='option-icon' />
+                    Blogs
+            </Link>
             </div>
         </div>
     );
